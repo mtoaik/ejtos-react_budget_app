@@ -24,7 +24,7 @@ const CurrencyDropDown = () => {
     return (
         <div id='currency-box' className='alert alert-success'>
             <select id='currency-selection' onChange={handleCurrencyChange} className='form-select'>
-                <option className="currency_notselected" selected disabled>Currency: {currency}</option>
+                <option className="currency_notselected" selected >Currency {currency} </option>
                 <option className="currencyOptionGBP" value={GBP}>{GBP} Pound </option>
                 <option className="currencyOptionUSD" value={USD}>{USD} Dollar</option>
                 <option className="currencyOptionEUR" value={EUR}>{EUR} Euro</option>
